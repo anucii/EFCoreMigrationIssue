@@ -24,7 +24,6 @@ namespace EFCoreMigrationIssue.Persistence
         {
             modelBuilder.Entity<Foo>().HasIndex(f => f.Uri)
                 .IsUnique(true);
-            base.OnModelCreating(modelBuilder);
         }
     }
 }
