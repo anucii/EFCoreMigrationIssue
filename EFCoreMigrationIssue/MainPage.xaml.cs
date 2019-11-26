@@ -15,7 +15,7 @@ namespace EFCoreMigrationIssue
     {
         public MainPage()
         {
-            InitializeComponent();
+            InitializeComponent();  
         }
     }
 }
